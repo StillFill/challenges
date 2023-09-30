@@ -1,0 +1,21 @@
+<div class="main">
+    <div class="building">
+            <div class="floors-wrapper">
+                <div *ngFor="let floor of floors" class="floor">
+                    <div class="floor-call-elevator-buttons">
+                        <button (click)="onPressFloorButton(floor)" *ngIf="floor < floors.length">/\</button>
+                        <button (click)="onPressFloorButton(floor)" *ngIf="floor > 1">\/</button>
+                    </div>                    
+                </div>
+            </div>
+
+
+        <div class="elevator-wrapper">
+            <div class="elevator" [style.bottom]="elevatorSelectedFloorHeight + '%'">
+                <div class="elevator-panel">
+                    <button [disabled]="isMoving || !currentFloor" *ngFor="let floor of floors" (click)="onPressFloorPanel(floor)">{{floor}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
