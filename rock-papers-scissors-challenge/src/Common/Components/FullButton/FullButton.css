@@ -1,0 +1,14 @@
+.full-button {
+    background-color: white;
+    color: hsl(229, 64%, 46%);
+    padding: 1em 3em;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.full-button:hover {
+    transform: scale(110%);
+    transition: 300ms;
+}

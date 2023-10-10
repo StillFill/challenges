@@ -1,0 +1,27 @@
+.display-choose-container {
+    display: flex;
+}
+
+.display-choose-container h3 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.display-choose-user {
+    margin: 0 15px;
+    padding: 0 25px;
+}
+
+.display-choose-computer {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-choise {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(12, 19, 36, 0.3);
+    border-radius: 50%;
+}

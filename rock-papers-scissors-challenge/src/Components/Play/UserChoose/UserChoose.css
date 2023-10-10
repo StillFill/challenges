@@ -1,0 +1,24 @@
+.user-choise-container {
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.choise-button-container {
+    position: absolute;
+}
+
+.choise-button-container-paper {
+    top: -45px;
+    left: -15px;
+}
+
+.choise-button-container-scissors {
+    top: -45px;
+    right: -15px;
+}
+
+.choise-button-container-rock {
+    bottom: -15px;
+}

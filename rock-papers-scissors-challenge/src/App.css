@@ -1,0 +1,31 @@
+.App {
+  background-color: #182343;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-score-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 5em;
+  margin-top: 30px;
+}
+
+.app-play-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+@media(max-width: 375px) {
+  .app-score-container {
+      width: 85%;
+  }
+}

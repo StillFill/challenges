@@ -1,0 +1,13 @@
+.borderless-button {
+    border: 2px solid hsl(217, 16%, 45%);
+    background-color: transparent;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.borderless-button:hover {
+    transform: scale(110%);
+    transition: 300ms;
+    cursor: pointer;
+}
